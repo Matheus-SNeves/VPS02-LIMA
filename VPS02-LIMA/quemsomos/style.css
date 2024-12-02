@@ -1,0 +1,126 @@
+header {
+    background: rgb(100, 75, 120);
+    width: 100%;
+
+    & .header1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & .titulo {
+            width: 30%;
+        }
+
+        & .pesquisa {
+            display: flex;
+            width: 50%;
+
+            & input {
+                width: 30vw;
+            }
+        }
+
+        & .links {
+            display: flex;
+            width: 30%;
+
+            & .atendimento,
+            .conta,
+            .carrinho {
+                width: 30%;
+                text-align: center;
+
+                & a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+
+
+    & .header2 {
+        width: 100%;
+
+        .menu3 {
+            background: rgb(100, 75, 120);
+            display: flex;
+            height: 7vh;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+
+            & a {
+                margin: 1vw;
+                text-align: center;
+                text-decoration: none;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
+    }
+}
+main{
+    width: 100%;
+    height: 60vh;
+
+    & span{
+        font-size: 1.2vw;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        padding: 15vw;
+    }
+}
+
+footer {
+    background-color: #efeff4;
+    color: #b9b3b3;
+    padding: 20px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    width: 30%;
+    color: #7575ae;
+}
+
+.section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #7575ae;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+    color: #7575ae;
+}
+
+.section ul li a {
+    color: #7575ae;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.section ul li a:hover {
+    color: #7575ae;
+}
+
+.section a img {
+    height: 40px;
+    margin-right: 40px;
+    border-radius: 30px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #7575ae;
+    padding: 50px;
+}
